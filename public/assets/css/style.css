@@ -1,0 +1,151 @@
+
+@font-face {
+    font-family: "iransans";
+    src: url("../fonts/IRANSansWeb_Light.woff2") format("woff2");
+    src: url("../fonts/IRANSansWeb_Light.woff") format("woff");
+}
+
+body {
+    font-family: "iransans", "PT Sans", sans-serif;
+}
+
+.error_message {
+    font-size: 13px;
+    color: #f00;
+    text-align: center;
+}
+.card-primary:not(.card-outline)>.card-header, .card-primary:not(.card-outline)>.card-header a {
+    color: #fff;
+    align-items: center;
+}
+.inline_flex {
+    display: inline-flex;
+}
+.form-group.inline_flex.col-lg-6 label {
+    padding: 5px;
+    min-width: fit-content;
+}
+#albumImages {
+    display: inline-table;
+}
+.splash-background {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    position: fixed;
+    z-index: 9;
+    background-color: #777;
+}
+.text-align-center {
+    text-align: center;
+}
+.ekko-lightbox-nav-overlay a:last-child span {
+    text-align: left ;
+}
+.ekko-lightbox-nav-overlay a span {
+    color: #007bff;
+}
+.stand-middle{
+    display: block;
+    margin: auto;
+}
+
+.os-padding {
+    left: 0;
+}
+.mj-dropdown a.dropdown-item {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.mj-dropdown a.dropdown-item span{
+    margin-right: 10px;
+}
+.navbar-badge {
+    right: 2px;
+    top: 2px;
+}
+.mj-dropdown .dropdown-header {
+    text-align: center;
+}
+.mj-dropdown .dropdown-footer {
+    text-align: center;
+    display: block !important;
+    background-color: #007bff;
+    color: #fff;
+}
+.mj-dropdown .dropdown-header {
+    text-align: center;
+    font-weight: bold;
+}
+.display-flex{
+    display: flex !important;
+}
+.margin-horizental-10{
+    margin: 0 10px !important;
+}
+.margin-0{
+    margin: 0 !important;
+}
+
+/** paginate links **/
+.paginate-links svg {
+    max-width: 1%;
+}
+.paginate-links {
+    justify-content: center;
+    display: flex;
+}
+.paginate-links nav div {
+    justify-content: center !important;
+    text-align: center !important;
+    direction: ltr !important;
+    margin: 20px -10px;
+}
+.paginate-links {
+    justify-content: center;
+    display: flex;
+}
+.paginate-links p.text-sm.text-gray-700.leading-5 {
+    display: none;
+}
+.paginate-links svg {
+    max-width: 2%;
+}
+.paginate-links nav {
+    min-width: -webkit-fill-available;
+}
+.paginate-links nav .flex.justify-between.flex-1.sm\:hidden {
+    display: none;
+}
+/*** end paginate link **/
+
+.form-button {
+    justify-content: center;
+    display: flex;
+}
+table.table.table-striped.projects thead tr th {
+    text-align: center;
+}
+table.table.table-striped.projects tbody tr td {
+    text-align: center;
+}
+
+.card-detail {
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+}
+.display-content{
+    display: contents;
+}
+
+.margin-vertical-10{
+    margin: 10px 0;
+}
+.width-100 {
+    width: 100%;
+}
+.active {
+    display: block !important;
+    transition: 0.5s ease-in-out !important;
+}
